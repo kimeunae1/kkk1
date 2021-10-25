@@ -10,7 +10,7 @@ public class Main {
 		for (int i = 0; i < a.length; ++i)
 			a[i] = random.nextInt(maxValue - minValue + 1) + 1;
 		return a;
-	}
+	}//추가한거임
 
 	public static void main(String[] args) {
 		int[] a = createArray(10, 1, 10);
